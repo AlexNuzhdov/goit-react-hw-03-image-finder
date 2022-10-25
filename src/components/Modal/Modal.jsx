@@ -45,6 +45,6 @@ render() {
 
 Modal.propTypes = {
   onClick: PropTypes.func,
-  onClose: PropTypes.func,
+  onClose: PropTypes.func.isRequired,
   children: PropTypes.node.isRequired,
 };
